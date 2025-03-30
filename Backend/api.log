@@ -1,0 +1,92 @@
+2025-03-29 13:46:19,807 - main - INFO - Modelo cargado correctamente desde modelo_lightgbm.pkl
+2025-03-29 13:49:11,760 - main - ERROR - Error en reentrenamiento: Found array with 1 sample(s) (shape=(1, 22)) while a minimum of 2 is required by LGBMClassifier.
+2025-03-29 14:24:25,696 - main - INFO - Modelo cargado correctamente desde modelo_lightgbm.pkl
+2025-03-29 14:42:18,797 - main - ERROR - Error en reentrenamiento: Found array with 1 sample(s) (shape=(1, 1)) while a minimum of 2 is required by LGBMClassifier.
+2025-03-29 16:32:07,628 - main - ERROR -  Error al cargar el modelo: [Errno 2] No such file or directory: 'model_pipeline.pkl'
+2025-03-29 16:32:14,900 - main - ERROR -  Error al cargar el modelo: [Errno 2] No such file or directory: 'model_pipeline.pkl'
+2025-03-29 16:38:49,017 - main - ERROR -  Error al cargar el modelo: [Errno 2] No such file or directory: 'modelo_lightgbm.pkl.pkl'
+2025-03-29 16:39:18,444 - main - INFO -  Pipeline cargado correctamente desde modelo_lightgbm.pkl
+2025-03-29 16:39:26,580 - main - INFO -  Pipeline cargado correctamente desde modelo_lightgbm.pkl
+2025-03-29 16:39:43,317 - main - ERROR -  Error en reentrenamiento: Found array with 1 sample(s) (shape=(1, 3)) while a minimum of 2 is required by LGBMClassifier.
+Traceback (most recent call last):
+  File "C:\Users\ACER\Desktop\P2BI\Proyecto1-main\backend\main.py", line 226, in retrain
+    model.fit(texts, labels)
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\pipeline.py", line 662, in fit
+    self._final_estimator.fit(Xt, y, **last_step_params["fit"])
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\lightgbm\sklearn.py", line 1560, in fit
+    super().fit(
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\lightgbm\sklearn.py", line 949, in fit
+    _X, _y = _LGBMValidateData(
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\utils\validation.py", line 2961, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\utils\validation.py", line 1370, in check_X_y
+    X = check_array(
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\utils\validation.py", line 1130, in check_array
+    raise ValueError(
+ValueError: Found array with 1 sample(s) (shape=(1, 3)) while a minimum of 2 is required by LGBMClassifier.
+2025-03-29 16:41:47,140 - main - ERROR -  Error en reentrenamiento: Found array with 1 sample(s) (shape=(1, 15)) while a minimum of 2 is required by LGBMClassifier.
+Traceback (most recent call last):
+  File "C:\Users\ACER\Desktop\P2BI\Proyecto1-main\backend\main.py", line 226, in retrain
+    model.fit(texts, labels)
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\pipeline.py", line 662, in fit
+    self._final_estimator.fit(Xt, y, **last_step_params["fit"])
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\lightgbm\sklearn.py", line 1560, in fit
+    super().fit(
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\lightgbm\sklearn.py", line 949, in fit
+    _X, _y = _LGBMValidateData(
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\utils\validation.py", line 2961, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\utils\validation.py", line 1370, in check_X_y
+    X = check_array(
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\utils\validation.py", line 1130, in check_array
+    raise ValueError(
+ValueError: Found array with 1 sample(s) (shape=(1, 15)) while a minimum of 2 is required by LGBMClassifier.
+2025-03-29 16:46:14,214 - main - INFO -  Pipeline cargado correctamente desde modelo_lightgbm.pkl
+2025-03-29 16:46:19,896 - main - INFO -  Pipeline cargado correctamente desde modelo_lightgbm.pkl
+2025-03-29 16:49:05,879 - main - ERROR -  Error en reentrenamiento: Found array with 1 sample(s) (shape=(1, 3)) while a minimum of 2 is required by LGBMClassifier.
+Traceback (most recent call last):
+  File "C:\Users\ACER\Desktop\P2BI\Proyecto1-main\backend\main.py", line 226, in retrain
+    model.fit(texts, labels)
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\pipeline.py", line 662, in fit
+    self._final_estimator.fit(Xt, y, **last_step_params["fit"])
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\lightgbm\sklearn.py", line 1560, in fit
+    super().fit(
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\lightgbm\sklearn.py", line 949, in fit
+    _X, _y = _LGBMValidateData(
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\utils\validation.py", line 2961, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\utils\validation.py", line 1370, in check_X_y
+    X = check_array(
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\utils\validation.py", line 1130, in check_array
+    raise ValueError(
+ValueError: Found array with 1 sample(s) (shape=(1, 3)) while a minimum of 2 is required by LGBMClassifier.
+2025-03-29 16:49:20,899 - main - ERROR -  Error en reentrenamiento: Found array with 1 sample(s) (shape=(1, 3)) while a minimum of 2 is required by LGBMClassifier.
+Traceback (most recent call last):
+  File "C:\Users\ACER\Desktop\P2BI\Proyecto1-main\backend\main.py", line 226, in retrain
+    model.fit(texts, labels)
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\pipeline.py", line 662, in fit
+    self._final_estimator.fit(Xt, y, **last_step_params["fit"])
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\lightgbm\sklearn.py", line 1560, in fit
+    super().fit(
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\lightgbm\sklearn.py", line 949, in fit
+    _X, _y = _LGBMValidateData(
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\utils\validation.py", line 2961, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\utils\validation.py", line 1370, in check_X_y
+    X = check_array(
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\utils\validation.py", line 1130, in check_array
+    raise ValueError(
+ValueError: Found array with 1 sample(s) (shape=(1, 3)) while a minimum of 2 is required by LGBMClassifier.
+2025-03-29 17:28:57,583 - main - INFO -  Pipeline cargado correctamente desde modelo_lightgbm.pkl
+2025-03-29 17:29:02,759 - main - INFO -  Pipeline cargado correctamente desde modelo_lightgbm.pkl
+2025-03-29 17:35:00,500 - main - INFO -  Pipeline cargado correctamente desde modelo_lightgbm.pkl
+2025-03-29 17:35:06,147 - main - INFO -  Pipeline cargado correctamente desde modelo_lightgbm.pkl
+2025-03-29 18:59:10,531 - main - INFO -  Pipeline cargado correctamente desde modelo_lightgbm.pkl
