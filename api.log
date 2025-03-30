@@ -1,0 +1,7 @@
+2025-03-29 11:04:50,174 - __main__ - ERROR - Error al cargar el modelo: [Errno 2] No such file or directory: 'models\\model.pkl'
+2025-03-29 11:05:42,828 - __main__ - ERROR - Error al cargar el modelo: [Errno 2] No such file or directory: 'modelo_lightgbm'
+2025-03-29 11:06:02,179 - __main__ - INFO - Modelo cargado correctamente desde modelo_lightgbm.pkl
+2025-03-29 11:06:08,169 - __mp_main__ - INFO - Modelo cargado correctamente desde modelo_lightgbm.pkl
+2025-03-29 11:08:05,227 - __main__ - INFO - Modelo cargado correctamente desde modelo_lightgbm.pkl
+2025-03-29 11:08:12,387 - __mp_main__ - INFO - Modelo cargado correctamente desde modelo_lightgbm.pkl
+2025-03-29 11:08:12,487 - main - INFO - Modelo cargado correctamente desde modelo_lightgbm.pkl
