@@ -33,7 +33,8 @@ npm run dev
 Abre tu navegador en:
 ```
 http://localhost:5173/index.html
+
 ```
 
-**Nota:** Ambos servidores (backend y frontend) deben estar ejecutándose al mismo tiempo.
+**Nota:** Ambos servidores (backend y frontend) deben estar ejecutándose al mismo tiempo en adición las preguntas asociadas al documento se encuentran en la wiki.
 ```
