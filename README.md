@@ -5,36 +5,27 @@
 - Parra Forero, Julian David
 - Salcedo Suarez, Brayan Estiven
 
+## Roles asignados:
 
-# Instrucciones para Ejecutar el Proyecto
+- **Líder de Proyecto:**  
+  **Parra Forero, Julian David**  
+  - A cargo de la gestión del proyecto, definición de fechas, pre-entregables y verificación de tareas. Subirá la entrega del grupo.
 
-## Backend (FastAPI)
+- **Líder de Analitica:**  
+  **Salcedo Suarez, Brayan Estiven**  
+  - Gestiona los datos utilizados en el proyecto y asigna tareas relacionadas. Se asegura de que los datos estén disponibles para todo el grupo y sean entregados correctamente en el repositorio.
 
-1. Abre una terminal
-2. Ejecuta:
-```bash
-cd C:\Users\ACER\Desktop\P2BI\Proyecto1-main\backend
-pip install -r requirements.txt
-uvicorn main:app --reload
-```
+- **Líder de Datos:**  
+  **Ortiz Vallejo, Daniel Felipe**  
+  - Gestiona las tareas de analítica, verificando que los entregables cumplan con los estándares de análisis y que se utilice el "mejor modelo" dentro de las restricciones del proyecto.
+ 
+    ## Asignación de tareas
 
-## Frontend (Vite/React)
-
-1. Abre otra terminal
-2. Ejecuta:
-```bash
-cd C:\Users\ACER\Desktop\P2BI\Proyecto1-main\frontend
-npm install
-npm run dev
-```
-
-## Acceder a la aplicación
-
-Abre tu navegador en:
-```
-http://localhost:5173/index.html
-
-```
-
-**Nota:** Ambos servidores (backend y frontend) deben estar ejecutándose al mismo tiempo en adición las preguntas asociadas al documento se encuentran en la wiki.
-```
+| **Sección**                                    | **Tareas Realizadas**                                                                                      | **Integrantes Responsable**      |
+|------------------------------------------------|------------------------------------------------------------------------------------------------------------|----------------------------------|
+| **Sección 1: Documentación del proceso de aprendizaje automático** | Completar el Canvas de aprendizaje automático.                                                              | Brayan y Julian                 |
+| **Sección 2: Entendimiento y preparación de los datos** | Perfilamiento, análisis de calidad de datos, tratamiento de los datos.                                       | Brayan y Julian                 |
+| **Sección 3: Modelado y evaluación**           | Aplicación de mínimo tres algoritmos diferentes. Cada estudiante implementó su algoritmo.                   | Brayan (Light), Julian (RF), Daniel (Vectorización) El video fue realizado por Julian |
+| **Sección 4: Resultados**                      | Análisis de los resultados obtenidos, métricas de calidad, y análisis de las palabras seleccionadas.       | Todos los integrantes           |
+| **Sección 5: Trabajo en equipo**               | Descripción de roles, tareas, tiempos dedicados, algoritmos trabajados, retos enfrentados, y uso de ChatGPT. | Brayan      y Daniel                   |
+| **Sección 6: Wiki**               | Documentación de resultados | Daniel                   |

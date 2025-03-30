@@ -90,3 +90,98 @@ ValueError: Found array with 1 sample(s) (shape=(1, 3)) while a minimum of 2 is 
 2025-03-29 17:35:00,500 - main - INFO -  Pipeline cargado correctamente desde modelo_lightgbm.pkl
 2025-03-29 17:35:06,147 - main - INFO -  Pipeline cargado correctamente desde modelo_lightgbm.pkl
 2025-03-29 18:59:10,531 - main - INFO -  Pipeline cargado correctamente desde modelo_lightgbm.pkl
+2025-03-29 17:30:28,680 - main - INFO -  Pipeline cargado correctamente desde modelo_lightgbm.pkl
+2025-03-29 17:37:50,468 - main - INFO -  Pipeline cargado correctamente desde modelo_lightgbm.pkl
+2025-03-30 06:34:28,134 - main - INFO -  Pipeline cargado correctamente desde modelo_lightgbm.pkl
+2025-03-30 07:18:15,338 - main - INFO -  Pipeline cargado correctamente desde modelo_lightgbm.pkl
+2025-03-30 07:18:15,851 - main - ERROR -  Error en reentrenamiento: Found array with 1 sample(s) (shape=(1, 1)) while a minimum of 2 is required by LGBMClassifier.
+Traceback (most recent call last):
+  File "C:\Users\ACER\Desktop\P2BI\Proyecto1-main\backend\main.py", line 226, in retrain
+    model.fit(texts, labels)
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\pipeline.py", line 662, in fit
+    self._final_estimator.fit(Xt, y, **last_step_params["fit"])
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\lightgbm\sklearn.py", line 1560, in fit
+    super().fit(
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\lightgbm\sklearn.py", line 949, in fit
+    _X, _y = _LGBMValidateData(
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\utils\validation.py", line 2961, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\utils\validation.py", line 1370, in check_X_y
+    X = check_array(
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\utils\validation.py", line 1130, in check_array
+    raise ValueError(
+ValueError: Found array with 1 sample(s) (shape=(1, 1)) while a minimum of 2 is required by LGBMClassifier.
+2025-03-30 07:18:19,501 - main - ERROR -  Error en reentrenamiento: 1 validation error for TrainingResponse
+strategy_used
+  Field required [type=missing, input_value={'status': 'success', 'me....0.0', 'new_samples': 2}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+Traceback (most recent call last):
+  File "C:\Users\ACER\Desktop\P2BI\Proyecto1-main\backend\main.py", line 238, in retrain
+    return TrainingResponse(
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for TrainingResponse
+strategy_used
+  Field required [type=missing, input_value={'status': 'success', 'me....0.0', 'new_samples': 2}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-30 07:18:24,529 - main - ERROR -  Error en reentrenamiento: 1 validation error for TrainingResponse
+strategy_used
+  Field required [type=missing, input_value={'status': 'success', 'me....0.0', 'new_samples': 3}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+Traceback (most recent call last):
+  File "C:\Users\ACER\Desktop\P2BI\Proyecto1-main\backend\main.py", line 238, in retrain
+    return TrainingResponse(
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for TrainingResponse
+strategy_used
+  Field required [type=missing, input_value={'status': 'success', 'me....0.0', 'new_samples': 3}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-30 07:18:36,031 - main - INFO -  Pipeline cargado correctamente desde modelo_lightgbm.pkl
+2025-03-30 07:32:29,223 - main - INFO -  Pipeline cargado correctamente desde modelo_lightgbm.pkl
+2025-03-30 07:32:35,987 - main - INFO -  Pipeline cargado correctamente desde modelo_lightgbm.pkl
+2025-03-30 07:32:47,758 - main - INFO -  Pipeline cargado correctamente desde modelo_lightgbm.pkl
+2025-03-30 07:32:53,858 - main - INFO -  Pipeline cargado correctamente desde modelo_lightgbm.pkl
+2025-03-30 07:33:49,875 - main - ERROR -  Error en reentrenamiento: Found array with 1 sample(s) (shape=(1, 1)) while a minimum of 2 is required by LGBMClassifier.
+Traceback (most recent call last):
+  File "C:\Users\ACER\Desktop\P2BI\Proyecto1-main\backend\main.py", line 226, in retrain
+    model.fit(texts, labels)
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\pipeline.py", line 662, in fit
+    self._final_estimator.fit(Xt, y, **last_step_params["fit"])
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\lightgbm\sklearn.py", line 1560, in fit
+    super().fit(
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\lightgbm\sklearn.py", line 949, in fit
+    _X, _y = _LGBMValidateData(
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\utils\validation.py", line 2961, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\utils\validation.py", line 1370, in check_X_y
+    X = check_array(
+  File "C:\Users\ACER\anaconda3\envs\pyomo_env\lib\site-packages\sklearn\utils\validation.py", line 1130, in check_array
+    raise ValueError(
+ValueError: Found array with 1 sample(s) (shape=(1, 1)) while a minimum of 2 is required by LGBMClassifier.
+2025-03-30 08:23:14,460 - main - INFO - Modelo cargado correctamente desde modelo_lightgbm.pkl
+2025-03-30 08:23:16,125 - main - ERROR - Error en reentrenamiento: '1'
+Traceback (most recent call last):
+  File "C:\Users\ACER\Desktop\P2BI\Proyecto1-main\Backend\main.py", line 221, in retrain
+    "precision": report["1"]["precision"],
+KeyError: '1'
+2025-03-30 08:28:27,519 - main - INFO - Modelo cargado correctamente desde modelo_lightgbm.pkl
+2025-03-30 08:28:48,521 - main - INFO - Distribución de clases en datos de entrenamiento: Counter({0: 3})
+2025-03-30 08:28:48,523 - main - WARNING - Solo una clase presente en los datos de entrenamiento
+2025-03-30 08:28:48,529 - main - INFO - Iniciando reentrenamiento (incremental) con 3 muestras
+2025-03-30 08:28:48,677 - main - INFO - Modelo guardado en modelo_lightgbm.pkl
+2025-03-30 08:31:08,479 - main - INFO - Distribución de clases en datos de entrenamiento: Counter({0: 2})
+2025-03-30 08:31:08,484 - main - WARNING - Solo una clase presente en los datos de entrenamiento
+2025-03-30 08:31:08,489 - main - INFO - Iniciando reentrenamiento (incremental) con 2 muestras
+2025-03-30 08:31:08,633 - main - INFO - Modelo guardado en modelo_lightgbm.pkl
+2025-03-30 08:32:09,194 - main - INFO - Distribución de clases en datos de entrenamiento: Counter({0: 2})
+2025-03-30 08:32:09,196 - main - WARNING - Solo una clase presente en los datos de entrenamiento
+2025-03-30 08:32:09,199 - main - INFO - Iniciando reentrenamiento (partial) con 2 muestras
+2025-03-30 08:32:09,300 - main - INFO - Modelo guardado en modelo_lightgbm.pkl
+2025-03-30 08:33:36,014 - main - INFO - Distribución de clases en datos de entrenamiento: Counter({0: 2, 1: 1})
+2025-03-30 08:33:36,020 - main - INFO - Iniciando reentrenamiento (full) con 3 muestras
+2025-03-30 08:33:36,170 - main - INFO - Modelo guardado en modelo_lightgbm.pkl
